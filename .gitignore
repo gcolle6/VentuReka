@@ -1,6 +1,13 @@
-# Environment variables
-.venv
-.venv.local
+# Virtual environment
+.venv/
+venv/
+
+# Artifacts (embeddings, models, numpy files, ecc.)
+artifacts/
+
+# Specific sensitive file inside dataset
+dataset/Opendatabay_recovery_codes.txt
+.env
 
 # Python
 __pycache__/
